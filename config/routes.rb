@@ -10,9 +10,7 @@ Rails.application.routes.draw do
   # root "posts#index"
 end
 Rails.application.routes.draw do
-  get 'welcome/index'
-  root 'welcome#index'
-  post 'login', to: 'login#index'
+  root "application#hello"
 end
 
 
